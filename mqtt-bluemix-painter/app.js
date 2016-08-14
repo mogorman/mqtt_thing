@@ -7,7 +7,7 @@ var app = {};
 // BEWARE: The three values below are for a test account expiring 2016-02-08.
 // You need to edit these values if you want to test the app with your own
 // Bluemix account!
-var orgId = '8q7k23';
+var hostname = 'home.rldn.net';
 // The username/password is the API-key and the corresponding authentication token.
 var userName = 'a-8q7k23-r3eqe3bunc';
 var password = 'W5UlH3X7-)v8F-ngD7';
@@ -93,11 +93,10 @@ app.setupCanvas = function() {
 app.setupConnection = function() {
 	// The hostname has the organisation id as prefix:
 	// '<orgid>.messaging.internetofthings.ibmcloud.com'
-	var hostname = orgId + '.messaging.internetofthings.ibmcloud.com';
 	// See https://docs.internetofthings.ibmcloud.com/messaging/applications.html
 	// The clientId is of the form 'a:<orgid>:<appid>'.
 	// <appid> must be unique per client so we add device.uuid to it
-	var clientId = 'a:'+ orgId + ':painter' + device.uuid;
+	var clientId = 'a:painter' + device.uuid;
 	app.client = new Paho.MQTT.Client(hostname, port, clientId);
   app.status("Connecting to " + hostname + ":" + port);
 	app.client.onConnectionLost = app.onConnectionLost;

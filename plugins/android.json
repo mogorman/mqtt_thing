@@ -1,0 +1,96 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.evothings.evothingsviewer.config-plugin": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "com.synconset.cordovaHTTP": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "com.unarin.cordova.beacon": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-ble": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-bluetooth-serial": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-common": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-sockets-tcp": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-sockets-tcpserver": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-sockets-udp": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-system-network": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-estimote": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "de.appplant.cordova.plugin.local-notification": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "phonegap-nfc": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        }
+    },
+    "dependent_plugins": {}
+}

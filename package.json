@@ -1,0 +1,48 @@
+{
+	"info": [
+		"Add your custom plugins to the plugins list below. You can also remove plugins by deleting them from the list.",
+		"It is possible to specify a field 'location' in a plugin entry to specify a URL or path. This location will be used instead of the id when adding the plugin. Examples:",
+		{ "id": "cordova-plugin-ble",
+		  "location": "https://github.com/evothings/cordova-ble" },
+		{ "id": "cordova-plugin-ble",
+		  "location": "../cordova-ble" }
+	],
+	"platforms": [
+		"ios",
+		"android"
+	],
+	"plugins": [
+		{ "id": "cordova-plugin-whitelist" },
+		{ "id": "cordova-plugin-battery-status" },
+		{ "id": "cordova-plugin-camera" },
+		{ "id": "cordova-plugin-console" },
+		{ "id": "cordova-plugin-device" },
+		{ "id": "cordova-plugin-device-motion" },
+		{ "id": "cordova-plugin-device-orientation" },
+		{ "id": "cordova-plugin-dialogs" },
+		{ "id": "cordova-plugin-geolocation" },
+		{ "id": "cordova-plugin-globalization" },
+		{ "id": "cordova-plugin-inappbrowser" },
+		{ "id": "cordova-plugin-network-information" },
+		{ "id": "cordova-plugin-statusbar" },
+		{ "id": "cordova-plugin-vibration" },
+		{ "id": "cordova-plugin-chrome-apps-system-network" },
+		{ "id": "cordova-plugin-chrome-apps-sockets-tcp" },
+		{ "id": "cordova-plugin-chrome-apps-sockets-tcpserver" },
+		{ "id": "cordova-plugin-chrome-apps-sockets-udp" },
+		{ "id": "phonegap-nfc" },
+		{ "id": "cordova-plugin-bluetooth-serial" },
+		{ "id": "cordova-plugin-ble",
+		  "location": "https://github.com/evothings/cordova-ble#1.3.1" },
+		{ "id": "com.unarin.cordova.beacon",
+		  "location": "https://github.com/evothings/cordova-plugin-ibeacon#3.4.3" },
+		{ "id": "com.synconset.cordovaHTTP",
+		  "location": "https://github.com/evothings/cordova-HTTP#v0.2.2" },
+		{ "id": "de.appplant.cordova.plugin.local-notification",
+		  "location": "https://github.com/katzer/cordova-plugin-local-notifications#0.8.4" },
+		{ "id": "com.evothings.evothingsviewer.config-plugin",
+		  "location": "config/config-plugin" },
+		{ "id": "cordova-plugin-estimote",
+		  "location": "https://github.com/evothings/phonegap-estimotebeacons" }
+	]
+}

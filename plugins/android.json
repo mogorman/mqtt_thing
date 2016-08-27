@@ -16,9 +16,6 @@
         "com.unarin.cordova.beacon": {
             "PACKAGE_NAME": "com.evothings.ble_test"
         },
-        "cordova-plugin-app-event": {
-            "PACKAGE_NAME": "com.evothings.ble_test"
-        },
         "cordova-plugin-battery-status": {
             "PACKAGE_NAME": "com.evothings.ble_test"
         },
@@ -29,12 +26,6 @@
             "PACKAGE_NAME": "com.evothings.ble_test"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.evothings.ble_test"
-        },
-        "cordova-plugin-chrome-apps-common": {
-            "PACKAGE_NAME": "com.evothings.ble_test"
-        },
-        "cordova-plugin-chrome-apps-sockets-tcp": {
             "PACKAGE_NAME": "com.evothings.ble_test"
         },
         "cordova-plugin-chrome-apps-sockets-tcpserver": {
@@ -92,5 +83,15 @@
             "PACKAGE_NAME": "com.evothings.ble_test"
         }
     },
-    "dependent_plugins": {}
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-common": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        },
+        "cordova-plugin-chrome-apps-sockets-tcp": {
+            "PACKAGE_NAME": "com.evothings.ble_test"
+        }
+    }
 }
